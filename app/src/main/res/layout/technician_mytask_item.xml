@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/teprioritycolorchecklayout"
+        android:layout_width="380dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="32dp"
+
+        android:layout_marginBottom="1dp"
+
+        android:background="@drawable/task_priority_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="359dp"
+            android:layout_height="108dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/rounded_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tenameNewConnectiontextview"
+                android:layout_width="163dp"
+                android:layout_height="33dp"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginEnd="267dp"
+                android:layout_marginBottom="76dp"
+                android:fontFamily="@font/alatsi"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.666" />
+
+            <TextView
+                android:id="@+id/tewhichTaskAllTaskTextView"
+                android:layout_width="100dp"
+                android:layout_height="41dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="65dp"
+                android:fontFamily="@font/amaranth"
+                android:gravity="center"
+                android:text="TextView"
+                android:textColor="#2196F3"
+                android:textSize="18sp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/tenameNewConnectiontextview"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/teaddressNewConnectionAllTaskTextView"
+                android:layout_width="160dp"
+                android:layout_height="27dp"
+                android:layout_marginStart="34dp"
+                android:layout_marginEnd="259dp"
+                android:layout_marginBottom="40dp"
+                android:text="TextView"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tenameNewConnectiontextview"
+                app:layout_constraintVertical_bias="1.0"
+                tools:fontFamily="@font/alatsi"
+                tools:textColor="#009688" />
+
+            <Button
+                android:id="@+id/TechnicianViewDetailsButton"
+                android:layout_width="117dp"
+                android:layout_height="39dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#017FE1"
+                android:text="View Details "
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.409"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tewhichTaskAllTaskTextView"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

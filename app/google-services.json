@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "742681054136",
+    "project_id": "kerala-vision-database",
+    "storage_bucket": "kerala-vision-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742681054136:android:d50cc849d1534838661d4d",
+        "android_client_info": {
+          "package_name": "com.example.keralavisiontaskorganizer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742681054136-0kn86jj4g0pbjn0qnadvg2dtatun222h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU8YIsSWpoBAwT9UqptBtHGbH0XGn2fB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742681054136-0kn86jj4g0pbjn0qnadvg2dtatun222h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

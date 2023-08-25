@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChangeUserActivity">
+
+    <Button
+        android:id="@+id/COLLECTION"
+        android:layout_width="161dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="428dp"
+        android:layout_marginEnd="124dp"
+        android:backgroundTint="#FFC107"
+        android:text="COLLECTION AGENT"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/LOGOUTBUTTON"
+        android:layout_width="161dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="552dp"
+        android:layout_marginEnd="124dp"
+        android:backgroundTint="#CA3101"
+        android:text="LOGOUT"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/TECHNICIAN"
+        android:layout_width="161dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="124dp"
+        android:backgroundTint="#4EBD53"
+        android:text="TECHNICIAN"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="217dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="144dp"
+        android:gravity="center"
+        android:text="Switch User"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textSize="34sp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="1dp"
+    android:layout_marginTop="1dp"
+    android:layout_marginEnd="1dp"
+    tools:context=".ViewFullConnectionDetailsController">
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="347dp"
+            android:layout_height="1028dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="1dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="Details"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Tecniciannameview"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:text="----------------------------------------------------------------------------------------"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="Phone Number"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TecnicianPhoneNumberview"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="Select a Task"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:text="----------------------------------------------------------------------------------------"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="Address"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/TecnicianAddressview"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="Select Priority"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView22drhgse"
+                android:text="----------------------------------------------------------------------------------------"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView12sdrgdt"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="Task"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/TecnicianTaskview"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView19drghsrg"
+                android:text="----------------------------------------------------------------------------------------"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView16dsetgsdh"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="Priority"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/TecnicianPriorityview"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="Select a Task"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView23jgkguk"
+                android:text="----------------------------------------------------------------------------------------"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView17fvsves"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="Discription"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/TecnicianDiscriptionview"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:text="Select Priority"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView16dsetgsdh2"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="Who is doing this task"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/whoIsDoingThisTaskTextView"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="Priority"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/publicbackButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#2196F3"
+                    android:text="Back" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KeralavisionTaskOrganizer"
+        tools:targetApi="31">
+        <activity
+            android:name=".ChangeUserActivityAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".GoSureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CollectionAgentMainActivity"
+            android:exported="false"
+            android:theme="@style/TechnicianTheme" />
+        <activity
+            android:name=".ViewFullCollectionOperatorField"
+            android:exported="false" />
+        <activity
+            android:name=".AddNewCollectionField"
+            android:exported="false" />
+        <activity
+            android:name=".ViewFullConnectionDetailsController"
+            android:exported="false" />
+        <activity
+            android:name=".ViewFullConnectionDetailsTechnician"
+            android:exported="false" />
+        <activity
+            android:name=".ChangeUserActivityTechnician"
+            android:exported="false" />
+        <activity
+            android:name=".ChangeUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TechnicianMainActivity"
+            android:exported="false"
+            android:theme="@style/TechnicianTheme" />
+        <activity
+            android:name=".NewComplaintField"
+            android:exported="false" />
+        <activity
+            android:name=".AddNewConnectionField"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".OperatorMainActivity"
+            android:exported="false"
+            android:theme="@style/OperatorTheme" />
+        <activity
+            android:name=".adminPermissionConfirmPage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="false"
+            android:theme="@style/DetailTheme">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".LoginAfterRegisteration"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".waitingList"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainDashBoard"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".GetOpt"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".login"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
